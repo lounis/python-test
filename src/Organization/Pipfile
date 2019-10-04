@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+
+[packages]
+pyfatal-cassandra-0-0-1 = {editable = true,git = "https://github.com/lounis/python-test.git",ref = "0.0.1",subdirectory = "src/DB/Cassandra"}
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
